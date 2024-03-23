@@ -1,20 +1,25 @@
 "use client";
-import React from "react";
-import ButtonSmall from "@/app/components/button";
+
 import styles from "./styles.module.css";
 import { useRouter } from "next/navigation";
 
-export default function Card({ elem }) {
+export default function Card({ array }) {
   const router = useRouter();
+
   return (
     <div
-      className={styles.item}
+      className={styles.card}
       onClick={() => {
-        router.push(elem.path);
+        router.push(array.link);
       }}
     >
-      <p>{elem.name}</p>
-      <ButtonSmall link={elem.path} />
+      <img className={styles.img} src={array.src} alt={array.name} />
+      <div className={styles.info}>
+        <div>
+          <h3>{array.name}</h3>
+          <p>{array.name}</p>
+        </div>
+      </div>
     </div>
   );
 }

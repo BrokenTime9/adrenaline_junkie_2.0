@@ -3,7 +3,7 @@
   padding-left: 8rem;
   height: 100vh;
   width: 100%;
-  background-color: #dcdcdc;
+  background-color: #fff;
 }
 
 .heading {
@@ -13,11 +13,13 @@
 }
 
 .cardContainer {
-  width: 80vw;
-  display: grid;
-  grid: 22rem / auto auto auto auto;
-  padding-top: 5%;
-  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  padding-right: 12rem;
 }
 
 .item {
@@ -37,29 +39,4 @@
   position: relative;
   top: 280px;
   left: 24px;
-}
-
-.north {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/mainPage/East-india.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.south {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/mainPage/East-india.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.east {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/mainPage/East-india.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.west {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/mainPage/East-india.jpg");
-  background-size: cover;
-  background-position: center;
 }

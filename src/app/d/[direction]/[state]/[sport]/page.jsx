@@ -2,6 +2,7 @@
 
 import { useParams, usePathname, useRouter } from "next/navigation";
 import sports from "@/data/sports";
+import Background from "./components/background_image";
 
 export default function Sport() {
   const params = useParams();
@@ -9,8 +10,13 @@ export default function Sport() {
   const pathname = usePathname();
   const splitPath = pathname.split("/");
   const sportData = sports[splitPath[3]][splitPath[4]];
-  console.log(sportData);
 
-  return <>{sportData.name}</>;
-//  signle sport data(id=1)
+  const sportToSplit = sportData.name;
+  const splitSport = sportToSplit.split(" ").join("");
+
+  return (
+    <>
+      <Background imgData={splitSport} data={sportData} />
+    </>
+  );
 }

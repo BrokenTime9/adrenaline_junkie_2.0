@@ -1,11 +1,30 @@
-// components/Card.js
-const Card = ({ title, image }) => {
+"use client";
+
+import styles from "./styles.module.css";
+import { useRouter, usePathname } from "next/navigation";
+
+export default function Card({ array }) {
+  const router = useRouter();
+
+  const pathname = usePathname();
+
   return (
-    <div className="card">
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
+    <div
+      className={styles.card}
+      onClick={() => {
+        router.push(pathname + "/" + array.name);
+      }}
+    >
+      <img
+        className={styles.img}
+        src={`/images/states/${array.name}.jpg`}
+        alt={array.name}
+      />
+      <div className={styles.info}>
+        <div>
+          <h3>{array.name}</h3>
+        </div>
+      </div>
     </div>
   );
-};
-
-export default Card;
+}

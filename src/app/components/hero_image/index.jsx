@@ -11,7 +11,6 @@ export default function Hero_image() {
           Get Ready to Explore India <br />
           With <span>Adrenaline Junkie</span> <br />
         </h1>
-        <a href="#">Learn More</a>
       </div>
     </div>
   );
