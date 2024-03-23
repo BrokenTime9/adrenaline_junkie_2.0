@@ -8,6 +8,8 @@ export default function Card({ array }) {
 
   const pathname = usePathname();
 
+  const imageName = array.name.toLowerCase();
+
   return (
     <div
       className={styles.card}
@@ -17,7 +19,7 @@ export default function Card({ array }) {
     >
       <img
         className={styles.img}
-        src={`/images/states/${array.name}.jpg`}
+        src={`/images/states/${imageName}.jpg`}
         alt={array.name}
       />
       <div className={styles.info}>
