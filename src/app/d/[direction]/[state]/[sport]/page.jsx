@@ -12,8 +12,9 @@ export default function Sport() {
   const sportData = sports[splitPath[3]][splitPath[4]];
 
   const sportToSplit = sportData.name;
-  const splitSport = sportToSplit.split(" ").join("");
+  const splitSport = sportToSplit.split(" ").join("").toLowerCase();
 
+  console.log(splitSport);
   return (
     <>
       <Background imgData={splitSport} data={sportData} />

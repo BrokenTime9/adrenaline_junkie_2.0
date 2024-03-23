@@ -8,7 +8,7 @@ export default function Card({ array }) {
 
   const pathname = usePathname();
   const image = array.name;
-  const imageName = image.split(" ").join("");
+  const imageName = image.split(" ").join("").toLowerCase();
   const heading = image.slice(0, -2);
 
   console.log(imageName);
