@@ -15,7 +15,11 @@ export default function State() {
   console.log(states[state]);
   // state hero image data
 
+<<<<<<< Updated upstream
   console.log(sports[state]);
+=======
+  console.log(sports[state]); 
+>>>>>>> Stashed changes
 
   if (!sports[state]) {
     return <div>State not found!</div>;

@@ -1,5 +1,9 @@
 .card {
+<<<<<<< Updated upstream
   height: 17rem;
+=======
+  height: 20rem;
+>>>>>>> Stashed changes
   aspect-ratio: 3/4;
 
   border-radius: 0.5rem;
@@ -16,13 +20,21 @@
 }
 
 .img {
+<<<<<<< Updated upstream
   height: 50%;
+=======
+  height: 60%;
+>>>>>>> Stashed changes
   width: 100%;
   object-fit: cover;
 }
 
 .info {
+<<<<<<< Updated upstream
   height: 50%;
+=======
+  height: 40%;
+>>>>>>> Stashed changes
   padding: 0.8rem;
   display: flex;
   flex-direction: column;

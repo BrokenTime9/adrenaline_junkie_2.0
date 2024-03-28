@@ -9,7 +9,11 @@ export default function Card({ array }) {
   const pathname = usePathname();
   const image = array.name;
   const imageName = image.split(" ").join("").toLowerCase();
+<<<<<<< Updated upstream
   const heading = image.slice(0, -2);
+=======
+  const heading = image;
+>>>>>>> Stashed changes
 
   console.log(imageName);
 
