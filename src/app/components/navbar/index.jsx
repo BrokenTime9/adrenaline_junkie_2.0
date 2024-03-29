@@ -12,7 +12,6 @@ export default function Navbar() {
     <nav className={styles.navb}>
       {/* <!-- <img src=".\philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg" alt="image" /> --> */}
       <Link href={"/"}>
-<<<<<<< Updated upstream
         <h1 className={`${inter.className} ${styles.logo}`}>Adrenaline Junkie</h1>
       </Link>
 
@@ -20,7 +19,6 @@ export default function Navbar() {
         <Link href="/states">About </Link>
         <Link href="/states">Sports</Link>
         <Link href="/states">States</Link>
-=======
         <h1 className={`${inter.className} ${styles.logo}`}>
           Adrenaline Junkie
         </h1>
@@ -31,7 +29,6 @@ export default function Navbar() {
         <Link href="/d/south">South States</Link>
         <Link href="/d/east">East States</Link>
         <Link href="/d/west">West States</Link>
->>>>>>> Stashed changes
       </div>
     </nav>
   );
