@@ -1,15 +1,6 @@
 const Odisha = {
   1: {
     id: 1,
-<<<<<<< Updated upstream
-    name: "asdfasdfasdf",
-    place: "asdfasdfasdf",
-  },
-  2: {
-    id: 2,
-    name: "asdkakakakakakakakakakfasdfasdf",
-    place: "asdfasdfasdf",
-=======
     name: "Surfing",
     location: "Puri",
     price: "Varies",
@@ -107,7 +98,6 @@ const Odisha = {
       "Chandrabhaga Beach, near Konark, is a popular destination for surfing enthusiasts. The beach's consistent waves and sandy shores provide ideal conditions for surfing, attracting surfers from across the country to ride the waves.",
     bestWeather: "Post-Monsoon and Winter",
     bestSeason: "October to March",
->>>>>>> Stashed changes
   },
 };
 
