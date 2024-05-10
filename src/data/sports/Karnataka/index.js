@@ -1,8 +1,4 @@
 const Karnataka = {
-<<<<<<< Updated upstream
-  name: "asdfasdfasdf",
-  place: "asdfasdfasdf",
-=======
   1: {
     id: 1,
     name: "Whitewater Rafting",
@@ -123,7 +119,6 @@ const Karnataka = {
     bestWeather: "Monsoon and Post-Monsoon",
     bestSeason: "June to September",
   },
->>>>>>> Stashed changes
 };
 
 export default Karnataka;
