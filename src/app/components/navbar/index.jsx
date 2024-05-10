@@ -22,7 +22,7 @@ export default function Navbar() {
         <h1 className={`${inter.className} ${styles.logo}`}>
           Adrenaline Junkie
         </h1>
-      </Link>
+      
 
       <div className={`${inter.className} ${styles.links}`}>
         <Link href="/d/north">North States</Link>
