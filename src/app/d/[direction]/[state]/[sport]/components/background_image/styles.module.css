@@ -3,10 +3,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-<<<<<<< Updated upstream
-=======
+
   font-size: 1.4rem;
->>>>>>> Stashed changes
+
 }
 .img {
   width: 50%;
@@ -16,11 +15,8 @@
 .text {
   width: 50%; /* Adjust as needed */
 }
-<<<<<<< Updated upstream
-=======
 
 .box {
   max-width: 42rem;
   margin: auto;
 }
->>>>>>> Stashed changes
