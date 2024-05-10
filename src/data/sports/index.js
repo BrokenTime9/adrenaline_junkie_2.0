@@ -1,13 +1,6 @@
 import Karnataka from "./Karnataka";
 import Maharashtra from "./Maharashtra";
 import Odisha from "./Odisha";
-<<<<<<< Updated upstream
-
-const sports = {
-  Maharashtra: Maharashtra,
-  Karnataka: Karnataka,
-  Odisha: Odisha,
-=======
 import Telangana from "./Telangana";
 import AndhraPradesh from "./AndhraPradesh";
 import Kerala from "./Kerala";
@@ -67,7 +60,6 @@ const sports = {
   Chattisgarh: Chhattisgarh,
   Bihar: Bihar,
   Jharkhand: Jharkhand,
->>>>>>> Stashed changes
 };
 
 export default sports;
