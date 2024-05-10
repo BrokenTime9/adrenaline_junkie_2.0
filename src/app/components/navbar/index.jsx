@@ -15,14 +15,7 @@ export default function Navbar() {
         <h1 className={`${inter.className} ${styles.logo}`}>Adrenaline Junkie</h1>
       </Link>
 
-      <div className={`${inter.className} ${styles.links}`}>
-        <Link href="/states">About </Link>
-        <Link href="/states">Sports</Link>
-        <Link href="/states">States</Link>
-        <h1 className={`${inter.className} ${styles.logo}`}>
-          Adrenaline Junkie
-        </h1>
-      </div>
+      
       
 
       <div className={`${inter.className} ${styles.links}`}>
